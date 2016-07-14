@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Joomdle My badges</name>
+	<author>Antonio Duran</author>
+	<creationDate>February 2015</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>development@qontori.com</authorEmail>
+	<authorUrl>www.qontori.com</authorUrl>
+	<version>1.0</version>
+	<description>Joomdle my badges</description>
+	<files>
+		<filename module="mod_joomdle_my_badges">mod_joomdle_my_badges.php</filename>
+		<filename module="mod_joomdle_my_badges">index.html</filename>
+		<filename module="mod_joomdle_my_badges">helper.php</filename>
+		<filename module="mod_joomdle_my_badges">tmpl/default.php</filename>
+		<filename module="mod_joomdle_my_badges">css/style.css</filename>
+
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_joomdle_my_badges.ini</language>
+		<language tag="es-ES">language/es-ES.mod_joomdle_my_badges.ini</language>
+	</languages>
+<config><fields name="params"><fieldset name="basic">
+
+	<field name="max" type="text" default="10" label="COM_JOOMDLE_MAX_ITEMS_TO_SHOW" description="COM_JOOMDLE_MAX_ITEMS_TO_SHOW" />
+	<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+
+	</fieldset></fields></config>
+</extension>

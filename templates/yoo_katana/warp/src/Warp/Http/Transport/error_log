@@ -1,0 +1,2 @@
+[27-Jan-2016 16:30:04 America/Detroit] PHP Fatal error:  Class 'Warp\Http\Transport\AbstractTransport' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Http/Transport/SocketTransport.php on line 15
+[27-Jan-2016 16:30:09 America/Detroit] PHP Fatal error:  Class 'Warp\Http\Transport\AbstractTransport' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Http/Transport/StreamTransport.php on line 15

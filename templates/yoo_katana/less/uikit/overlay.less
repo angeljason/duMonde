@@ -1,0 +1,64 @@
+// Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+//
+// Component: Overlay
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@overlay-panel-color:                           @global-contrast-color;
+
+@overlay-icon-color:                            @global-contrast-color;
+
+// DEPRECATED
+@overlay-area-background:                       fade(@global-primary-background, 70%);
+
+@overlay-area-icon:                             "+";
+@overlay-area-icon-size:                        100px;
+@overlay-area-icon-color:                       @global-contrast-color;
+
+@overlay-area-content-font-size:                1rem;
+@overlay-area-content-padding-horizontal:       15px;
+@overlay-area-content-color:                    @global-contrast-color;
+@overlay-area-content-link-color:               inherit;
+
+@overlay-caption-background:                    fade(@global-primary-background, 70%);
+@overlay-caption-padding:                       @global-margin;
+@overlay-caption-color:                         @global-contrast-color;
+
+
+// Sub-object `uk-overlay-panel`
+// ========================================================================
+
+.hook-overlay-panel() {}
+
+
+// Sub-object `uk-overlay-background`
+// ========================================================================
+
+.hook-overlay-background() {}
+
+
+// Sub-object `uk-overlay-icon`
+// ========================================================================
+
+.hook-overlay-icon() {}
+
+
+// Sub-object `uk-overlay-area`
+// ========================================================================
+
+.hook-overlay-area() {}
+.hook-overlay-area-icon() {
+	font-weight: 200;
+	font-family: 'Roboto';
+}
+
+
+// Miscellaneous
+// ========================================================================
+
+.hook-overlay-misc() {}

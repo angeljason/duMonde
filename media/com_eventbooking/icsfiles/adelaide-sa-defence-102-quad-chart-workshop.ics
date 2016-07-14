@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5705ae04202da
+DTSTART:20160615T100000Z
+DTEND:20160615T180000Z
+DTSTAMP:20160615T100000Z
+ORGANIZER;CN=The duMonde Group Pty Ltd. :mailto:info@dumonde.com.au
+CREATED:20160407T004656Z
+DESCRIPTION:Quad charts are a quick and easy way to promote your company capabilities/products in one page. Quad chart enables government and industry to identify company capabilities/products and to determine suitability in meeting capability needs. This one-day workshop will directly guide companies in coming up with their company Quad Charts and provide tips on how to maximise its use during key marketing and networking events.
+LAST-MODIFIED:20160615T100000Z
+LOCATION:Adelaide\, South Australia\, Australia
+SUMMARY:Adelaide\, SA - Defence 102 - Quad Chart Workshop 
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

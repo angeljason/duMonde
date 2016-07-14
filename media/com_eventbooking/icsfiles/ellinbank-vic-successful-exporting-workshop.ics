@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5722a39b855a1
+DTSTART:20160510T100000Z
+DTEND:20160510T153000Z
+DTSTAMP:20160510T100000Z
+ORGANIZER;CN=The duMonde Group Pty Ltd. :mailto:info@dumonde.com.au
+CREATED:20160428T235818Z
+DESCRIPTION:  Our full-day Successful Exporting workshop provides you with the essential knowledge\, information and supporting tools required to more confidently access and pursue exporting opportunities in the global market. It is also aligned with the global export programs of both Government and Industry at large. The workshop is useful to any business that is exporting or considering exporting goods or services in key markets overseas.   At the end of the course\, you should be able to:   		 		Discover the elements of successful exporting (“export journey”) from a local SME’s perspective.      		 		Assess a firm’s level of “Export Readiness”	   		 		Appreciate the importance of having an Export Strategy	   		 		Be more aware of the key export barriers and challenges.				 		Identify the various Government & Industry support avenues.				 		Discover key considerations in assisting local SMEs’ exporting journey.	
+LAST-MODIFIED:20160510T100000Z
+LOCATION:Department of Economic Development\, Jobs\, Transport & Resources Building at 1301 Hazeldean Road\, Ellinbank
+SUMMARY:Ellinbank\, VIC - Successful Exporting Workshop
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,2 @@
+[27-Oct-2015 10:11:13 America/Detroit] PHP Fatal error:  Class 'Element' not found in /home/nickmond/public_html/media/zoo/elements/country/country.php on line 13
+[27-Oct-2015 10:11:13 America/Detroit] PHP Fatal error:  Using $this when not in object context in /home/nickmond/public_html/media/zoo/elements/country/countries.php on line 9

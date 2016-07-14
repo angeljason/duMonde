@@ -1,0 +1,16 @@
+[27-Oct-2015 10:11:15 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/EventHelper.php on line 15
+[27-Oct-2015 10:11:15 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/AssetfilterHelper.php on line 17
+[27-Oct-2015 10:11:15 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/AssetHelper.php on line 20
+[27-Oct-2015 10:11:15 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/UseragentHelper.php on line 17
+[27-Jan-2016 16:29:15 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/AssetHelper.php on line 20
+[27-Jan-2016 16:29:18 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/CheckHelper.php on line 15
+[27-Jan-2016 16:29:19 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/TemplateHelper.php on line 15
+[27-Jan-2016 16:29:21 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/UseragentHelper.php on line 17
+[27-Jan-2016 16:29:22 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/DomHelper.php on line 17
+[27-Jan-2016 16:29:24 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/AssetfilterHelper.php on line 17
+[27-Jan-2016 16:29:27 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/PathHelper.php on line 17
+[27-Jan-2016 16:29:29 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/ChecksumHelper.php on line 15
+[27-Jan-2016 16:29:30 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/HttpHelper.php on line 18
+[27-Jan-2016 16:29:33 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/EventHelper.php on line 15
+[27-Jan-2016 16:29:39 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/FieldHelper.php on line 15
+[27-Jan-2016 16:29:41 America/Detroit] PHP Fatal error:  Class 'Warp\Helper\AbstractHelper' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Helper/MenuHelper.php on line 17

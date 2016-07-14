@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:56287f05417bc
+DTSTART:20151027T100000Z
+DTEND:-00011130T000000Z
+DTSTAMP:20151027T100000Z
+ORGANIZER;CN=The duMonde Group Pty Ltd. :mailto:info@dumonde.com.au
+CREATED:20151022T061532Z
+DESCRIPTION:  The 2015 Victorian Manufacturing Showcase will again attract hundreds of the best and brightest manufacturers in Victoria to a day of innovation\, inspiration and partnership building.  Hosted by the Victorian Government and the Industry Capability Network\, the 2015 Victorian Manufacturing Showcase will be held at Chisholm Institute in Dandenong on Tuesday 27th October.
+LAST-MODIFIED:20151027T100000Z
+LOCATION:Automotive Centre\, Chisholm Institute\, Building R\, 121 Stud Road\, Dandenong
+SUMMARY:Dandenong\, VIC - 2015 Victorian Manufacturing Showcase
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

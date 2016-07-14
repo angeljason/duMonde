@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:565d5334a5931
+DTSTART:20151202T100000Z
+DTEND:-00011130T000000Z
+DTSTAMP:20151202T100000Z
+ORGANIZER;CN=The duMonde Group Pty Ltd. :mailto:info@dumonde.com.au
+CREATED:20151201T075843Z
+DESCRIPTION:  Can you articulate your business capability in a concise way? Are you aware of the preferred method of communicating capability and products to Defence and defence industry?  If you answered no to either of these questions then this workshop will be a valuable business marketing tool for your business!
+LAST-MODIFIED:20151202T100000Z
+LOCATION:Melbourne\, Victoria\, Australia
+SUMMARY:Melbourne\, VIC - Quad Chart Workshop
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

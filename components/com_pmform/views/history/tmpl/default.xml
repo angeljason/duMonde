@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Payment History">
+		<message>
+			Display payment history of the current use
+		</message>
+	</layout>
+	<state>
+		<name>Payment History</name>
+		<description>Display payment history of the current use</description>					
+	</state>
+</metadata>

@@ -1,0 +1,6 @@
+[27-Oct-2015 10:11:15 America/Detroit] PHP Fatal error:  Class 'Warp\Asset\AssetOptions' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Asset/AssetCollection.php on line 14
+[27-Oct-2015 10:11:15 America/Detroit] PHP Fatal error:  Class 'Warp\Asset\AbstractAsset' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Asset/FileAsset.php on line 15
+[27-Jan-2016 16:29:42 America/Detroit] PHP Fatal error:  Class 'Warp\Asset\AbstractAsset' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Asset/FileAsset.php on line 15
+[27-Jan-2016 16:29:46 America/Detroit] PHP Fatal error:  Class 'Warp\Asset\AbstractAsset' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Asset/StringAsset.php on line 15
+[27-Jan-2016 16:29:48 America/Detroit] PHP Fatal error:  Class 'Warp\Asset\AssetOptions' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Asset/AbstractAsset.php on line 14
+[27-Jan-2016 16:29:49 America/Detroit] PHP Fatal error:  Class 'Warp\Asset\AssetOptions' not found in /home/nickmond/public_html/templates/yoo_katana/warp/src/Warp/Asset/AssetCollection.php on line 14

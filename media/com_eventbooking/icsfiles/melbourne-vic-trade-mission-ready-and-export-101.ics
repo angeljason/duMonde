@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:56c2943701e0c
+DTSTART:20160307T090000Z
+DTEND:20160307T130000Z
+DTSTAMP:20160307T090000Z
+ORGANIZER;CN=The duMonde Group Pty Ltd. :mailto:info@dumonde.com.au
+CREATED:20160216T031501Z
+DESCRIPTION:  The duMonde Group will present a practical\, informative workshop assisting SMEs to create their customer value proposition and elevator pitch in readiness for the VIP mission. It will also cover the need for understanding market awareness and the importance of an export strategy when building potential customer relationships   Course Objectives:   		 		Discover the elements of successful exporting (“export journey”) from a local SME’s perspective      		 		Assess a firm’s level of “Export Readiness”	   		 		Appreciate the importance of having an Export Strategy	   		 		Identify your Value Proposition in an exporting context	
+LAST-MODIFIED:20160307T090000Z
+LOCATION:Investment Centre\, Level 46\, 55 Collins St.\, Melbourne\, VIC
+SUMMARY:Melbourne\, VIC - Trade Mission Ready and Export 101
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

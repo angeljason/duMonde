@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="user" client="site" order="99"  method="upgrade">
+	<name>User Check - Joomdle</name>
+	<author>Qontori Pte Ltd</author>
+    <copyright>Copyright (C) 2014 Qontori Pte Ltd</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+    <authorEmail>development@qontori.com</authorEmail>
+    <authorUrl>www.qontori.com</authorUrl>
+    <version>1.0.2</version>
+	<description>Joomdle User check</description>
+	<files>
+		<filename plugin="joomdleusercheck">joomdleusercheck.php</filename>
+		<filename>helper.php</filename>
+	</files>
+	  <languages>
+	          <language tag="en-GB">language/en-GB.plg_user_joomdleusercheck.ini</language>
+	          <language tag="es-ES">language/es-ES.plg_user_joomdleusercheck.ini</language>
+	  </languages>
+	  <config>
+        <fields name="params">
+
+            <fieldset name="basic">
+
+                <field name="extendedusernamechars" type="radio"
+                    class="btn-group btn-group-yesno"
+                    default="0"
+                    description="COM_JOOMDLE_ALLOW_EXTENDED_CHARS_IN_USERNAME_DESCRIPTION"
+                    label="COM_JOOMDLE_ALLOW_EXTENDED_CHARS_IN_USERNAME_LABEL"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+            </fieldset>
+
+        </fields>
+    </config>
+
+</extension>

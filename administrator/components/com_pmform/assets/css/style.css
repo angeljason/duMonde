@@ -1,0 +1,24 @@
+.icon-32-save-new					{	background-image: url(../icons/icon-32-save-new.png);	}
+.icon-32-export					{	background-image: url(../icons/export.png);	}
+.copyright {
+	text-align: center ;
+	margin-top: 5px;
+}
+table.admintable td label {
+	clear: none ;
+	min-width: 40px;
+	margin : 3px 2px ;
+	display: inline-block; 
+}
+fieldset.adminform {
+	border: none ;	
+}
+.form-horizontal label.control-label {
+	text-align: left;
+}
+
+.form-horizontal div.controls label {	
+	clear: none ;
+	min-width: 40px;
+	display: inline-block; 
+}

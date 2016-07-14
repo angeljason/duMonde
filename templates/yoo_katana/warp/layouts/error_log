@@ -1,0 +1,1 @@
+[27-Jan-2016 16:27:59 America/Detroit] PHP Fatal error:  Call to a member function addFile() on a non-object in /home/nickmond/public_html/templates/yoo_katana/warp/layouts/error.php on line 10

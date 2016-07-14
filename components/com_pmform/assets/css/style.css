@@ -1,0 +1,58 @@
+/*** Class for heading message***/
+.heading {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table.os_table {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+table.os_table td.title_cell {
+    width: 25%;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/*** Css for dispalying inputbox td **/
+table.os_table td.field_cell {
+    padding-top: 5px;
+}
+
+/*** Css for display '*' next to required field ***/
+.required {
+    padding-left: 5px;
+    color: red;
+}
+
+.invalid, .error {
+    color: red;
+}
+
+.pf-container .pf-message img {
+    float: left !important;
+    margin: 0 10px 0 0;
+}
+
+form.form-horizontal .control-label, form.form-horizontal .control-label label, form#os_form .control-label, form#os_form .control-label label{
+    text-align: left;
+    font-weight: bold;
+}
+
+/*** Display amount explaination next to each pre-defined amount**/
+.field_description {
+    font-style: italic;	
+	padding-top: 4px;
+	font-weight: normal;
+}
+
+div#left_col {
+    margin-right: 50px;
+}
+
+div#right_col {
+}

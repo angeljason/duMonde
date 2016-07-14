@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Joomdle Abc</name>
+	<creationDate>November 2010</creationDate>
+	<author>Qontori Pte Ltd</author>  
+	<copyright>Copyright (C) 2014 Qontori Pte Ltd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>development@qontori.com</authorEmail>
+	<authorUrl>www.qontori.com</authorUrl>
+	<version>1.0</version>
+	<description>Shows Moodle Courses list</description>
+	<files>
+		<filename module="mod_joomdle_abc">mod_joomdle_abc.php</filename>
+		<filename module="mod_joomdle_abc">index.html</filename>
+		<filename module="mod_joomdle_abc">helper.php</filename>
+		<filename module="mod_joomdle_abc">tmpl/default.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.mod_joomdle_abc.ini</language>
+		<language tag="es-ES">language/es-ES.mod_joomdle_abc.ini</language>
+		<language tag="pt-BR">language/pt-BR.mod_joomdle_abc.ini</language>
+		<language tag="de-DE">language/de-DE.mod_joomdle_abc.ini</language>
+		<language tag="fr-FR">language/fr-FR.mod_joomdle_abc.ini</language>
+		<language tag="it-IT">language/it-IT.mod_joomdle_abc.ini</language>
+	</languages>
+	<config><fields name="params"><fieldset name="basic">
+		<field name="linkto" type="list" default="courses" label="COM_JOOMDLE_LINKTO" description="COM_JOOMDLE_LINKTO_DESCRIPTION">
+			<option value="courses">Courses</option>
+			<option value="teachers">Teachers</option>
+		</field>
+		<field name="start_chars" type="text" default="ABC,DEF,GHI,JKL,MNO,PQR,STU,VWXYZ" label="COM_JOOMDLE_START_CHARS" description="COM_JOOMDLE_START_CHARS_DESCRIPTION" />
+		<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</fieldset></fields></config>
+</extension>

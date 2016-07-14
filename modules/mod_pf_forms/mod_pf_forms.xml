@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" method="upgrade">
+	<name>Forms list</name>
+	<author>Tuan Pham Ngoc</author>
+	<creationDate>04 May 2010</creationDate>
+	<copyright>Copyright (C) 2010 Ossolution Team</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@joomdonation.com</authorEmail>
+	<authorUrl>www.joomdonation.com</authorUrl>
+	<version>3.9</version>
+	<description>This module is used to show list of forms for payment form extension</description>
+	<files>
+		<filename module="mod_pf_forms">index.html</filename>
+		<filename module="mod_pf_forms">mod_pf_forms.php</filename>		
+		<filename module="mod_pf_forms">tmpl/default.php</filename>
+		<filename module="mod_pf_forms">tmpl/index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text"
+					label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX">
+				</field>
+				<field name="number_forms" type="text"
+					label="Number Forms" description="Number forms to be showed on the module" default="10">
+				</field>			
+			</fieldset>
+		</fields>	
+	</config>	
+</extension>

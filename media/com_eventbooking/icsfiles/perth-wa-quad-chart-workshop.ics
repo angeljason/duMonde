@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:565e8b6c110a6
+DTSTART:20160128T100000Z
+DTEND:-00011130T000000Z
+DTSTAMP:20160128T100000Z
+ORGANIZER;CN=The duMonde Group Pty Ltd. :mailto:info@dumonde.com.au
+CREATED:20151202T061050Z
+DESCRIPTION:  Quad Charts have been used by the international defence industry for many years to succinctly and effectively communicate a proposal or capability. These same techniques are now being used by companies as a way to market themselves better to defence and other prime contractors.  If you are wanting to better position your firm for potential defence contracts or indeed any others\, then this workshop is a ‘must ‘ for you.
+LAST-MODIFIED:20160128T100000Z
+LOCATION:Perth\, Western Australia\, Australia
+SUMMARY:Perth\, WA - Quad Chart Workshop
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:56441aa2cea06
+DTSTART:20151118T090000Z
+DTEND:-00011130T000000Z
+DTSTAMP:20151118T090000Z
+ORGANIZER;CN=The duMonde Group Pty Ltd. :mailto:info@dumonde.com.au
+CREATED:20151112T045041Z
+DESCRIPTION:The State Government of Victoria and the duMonde Group invite you to a series of interactive workshops that will help current and prospective Australian suppliers break into the global marketplace. This is an opportunity not to be missed if you are a current or prospective exporter in Victoria\, regardless of size or location\, who wishes to take advantage of the growing opportunities overseas and be a step ahead. Learn from industry experts about the latest trends\, best practices and practical tips on how to approach exporting more successfully.
+LAST-MODIFIED:20151118T090000Z
+LOCATION:Avoca Room\, Level 5\, 121 Exhibition St\, Melbourne VIC 3000\, Australia
+SUMMARY:Victoria's FREE Export 101 Workshops
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

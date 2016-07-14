@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Forms List">
+		<message>
+			Display list of forms
+		</message>
+	</layout>
+	<state>
+		<name>Forms List</name>
+		<description>Display list of forms which users can click on to process payment</description>				
+	</state>
+</metadata>

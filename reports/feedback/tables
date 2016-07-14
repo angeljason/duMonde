@@ -1,0 +1,92 @@
+//<code>
+// Prepare the empty array
+$items = array();
+// Prepare the database connection
+$db = JFactory::getDbo();
+// Keep this if you'd like a "Please select" option, otherwise comment or remove it
+$items[] = "|Please Select[c]";
+ 
+// Run the SQL query and store it in $results
+$db->setQuery("select title from e27rt_eb_events ORDER BY event_date DESC");
+$results = $db->loadObjectList();
+ 
+// Now, we need to convert the results into a readable RSForm! Pro format.
+// The Items field will accept values in this format:
+// value-to-be-stored|value-to-be-shown
+// Eg. m|M-sized T-shirt
+foreach ($results as $result) {
+  $value = $result->title;
+  $label = $result->title;
+  $items[] = $value.'|'.$label;
+}
+ 
+// Multiple values are separated by new lines, so we need to do this now
+$items = implode("\n", $items);
+ 
+// Now we need to return the value to the field
+return $items;
+//</code>
+
+
+---------------------------------------
+
+//<code>
+// Prepare the empty array
+$items = array();
+// Prepare the database connection
+$db = JFactory::getDbo();
+// Keep this if you'd like a "Please select" option, otherwise comment or remove it
+$items[] = "|Please Select[c]";
+ 
+// Run the SQL query and store it in $results
+$db->setQuery("SELECT distinct a.completename FROM (SELECT CONCAT(first_name, ' ', last_name) as completename FROM e27rt_eb_registrants) a ORDER BY a.completename ASC");
+$results = $db->loadObjectList();
+ 
+// Now, we need to convert the results into a readable RSForm! Pro format.
+// The Items field will accept values in this format:
+// value-to-be-stored|value-to-be-shown
+// Eg. m|M-sized T-shirt
+foreach ($results as $result) {
+  $value = $result->completename;
+  $label = $result->completename;
+  $items[] = $value.'|'.$label;
+}
+ 
+// Multiple values are separated by new lines, so we need to do this now
+$items = implode("\n", $items);
+ 
+// Now we need to return the value to the field
+return $items;
+//</code>
+
+
+---------------------------------------
+
+//<code>
+// Prepare the empty array
+$items = array();
+// Prepare the database connection
+$db = JFactory::getDbo();
+// Keep this if you'd like a "Please select" option, otherwise comment or remove it
+$items[] = "|Please Select[c]";
+ 
+// Run the SQL query and store it in $results
+$db->setQuery("select distinct email from e27rt_eb_registrants ORDER BY email ASC");
+$results = $db->loadObjectList();
+ 
+// Now, we need to convert the results into a readable RSForm! Pro format.
+// The Items field will accept values in this format:
+// value-to-be-stored|value-to-be-shown
+// Eg. m|M-sized T-shirt
+foreach ($results as $result) {
+  $value = $result->email;
+  $label = $result->email;
+  $items[] = $value.'|'.$label;
+}
+ 
+// Multiple values are separated by new lines, so we need to do this now
+$items = implode("\n", $items);
+ 
+// Now we need to return the value to the field
+return $items;
+//</code>

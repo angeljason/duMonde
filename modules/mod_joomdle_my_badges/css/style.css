@@ -1,0 +1,39 @@
+ul.joomdlebadges {
+    margin: 0;
+    list-style: none;
+}
+.joomdlebadges li {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2em;
+    text-align: center;
+    vertical-align: top;
+    width: 150px;
+}
+.joomdlebadges li .joomdlebadge-name {
+    display: block;
+    padding: 5px;
+}
+.joomdlebadges li > img {
+    position: absolute;
+}
+.joomdlebadges li .joomdlebadge-image {
+    width: 90px;
+    height: 90px;
+    left: 10px;
+    top: 0px;
+    z-index: 1;
+}
+.joomdlebadges li .joomdlebadge-actions {
+    position: relative;
+}
+div.joomdlebadge {
+    position: relative;
+    display: block;
+}
+div.joomdlebadge .expireimage {
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 0px;
+}

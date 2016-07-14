@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>Page Peel Banner</name>
+	<author>TemplatePlazza</author>
+	<creationDate>October 2012</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@templateplazza.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+	<version>2.0.3</version>
+	<description>MOD_PAGEPEELBANNER_DESCRIPTION</description>
+
+	
+	<files>
+		<filename module="mod_pagepeel_banner">mod_pagepeel_banner.php</filename>
+		<filename>index.html</filename>
+  		<filename>helper.php</filename>	
+  		<folder>assets</folder>
+  		<folder>tmpl</folder>
+		
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_pagepeel_banner.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_pagepeel_banner.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_banners/models/fields">
+				<field
+					name="displaytype"
+					type="list"
+					label="MOD_PAGEPEEL_LAYOUT_TYPE_LABEL"
+					description="MOD_PAGEPEEL_LAYOUT_TYPE_DESC" default="jquery">
+					<option value="flash">MOD_PAGEPEEL_FLASH_OPT</option>
+					<option value="jquery">MOD_PAGEPEEL_JQUERY_OPT</option>			
+				</field>
+				<field name="peeldirection" type="list" default="rt" label="MOD_PAGEPEEL_DIRECTION_LABEL" description="MOD_PAGEPEEL_DIRECTION_DESC">
+					<option value="rt">MOD_PAGEPEEL_DIROPT_RIGHT</option>
+					<option value="lt">MOD_PAGEPEEL_DIROPT_LEFT</option>
+				</field>
+				<field name="autoopenspacer" type="spacer" label="Auto Open Configuration ____________________________________" class="text"/>
+				
+						<field name="peelautoopenable" type="list" default="disable" label="MOD_PAGEPEEL_AUTOOPEN_LABEL" description="MOD_PAGEPEEL_AUTOOPEN_DESC">
+							<option value="enable">OPTION_ENABLE</option>
+							<option value="disable">OPTION_DISABLE</option>
+						</field>
+						<field name="peelautoopenbehaviour" type="list" default="reload" label="MOD_PAGEPEEL_AUTOOPEN_BHV_LABEL" description="MOD_PAGEPEEL_AUTOOPEN_BHV_DESC">
+							<option value="once">MOD_PAGEPEEL_AUTOOPEN_BHV_ONCE_OPT</option>
+							<option value="reload">MOD_PAGEPEEL_AUTOOPEN_BHV_EVERY_OPT</option>
+						</field>
+						<field name="peelautoopen" type="text" default="0.1" label="MOD_PAGEPEEL_AUTOOPEN_SPEED_LABEL" description="MOD_PAGEPEEL_AUTOOPEN_SPEED_DESC" /> 	
+						<field name="peelcloseautoopen" type="text" default="5" label="MOD_PAGEPEEL_TIMETOCLOSE_LABEL" description="MOD_PAGEPEEL_TIMETOCLOSE_DESC" />
+						<field name="peeltheme" type="radio" default="1" label="MOD_PAGEPEEL_PEELTHEME_LABEL" description="MOD_PAGEPEEL_PEELTHEME_DESC">
+							<option value="1">MOD_PAGEPEEL_PEELTHEME_VALUE_LIGHT</option>
+							<option value="0">MOD_PAGEPEEL_PEELTHEME_VALUE_DARK</option>
+						</field>
+						
+						<field name="imagepropertiesspacer" type="spacer" label="Image Properties ____________________________________" class="text"/>
+						<field name="alterimage" type="media" default="modules/mod_pagepeel_banner/assets/big.jpg" label="MOD_PAGEPEEL_ALTBIGPEELIMG_LABEL" description="MOD_PAGEPEEL_ALTBIGPEELIMG_DESC" />
+						<field name="peelsmallimage" type="media" default="modules/mod_pagepeel_banner/assets/little.jpg" label="MOD_PAGEPEEL_ALTSMLPEELIMG_LABEL" description="MOD_PAGEPEEL_ALTSMLPEELIMG_DESC" />
+						<field name="peelsmallwidth" type="text" default="80" label="MOD_PAGEPEEL_SMLPEELSIZE_LABEL" description="MOD_PAGEPEEL_SMLPEELSIZE_DESC" />
+						<field name="peelbigwidth" type="text" default="500" label="MOD_PAGEPEEL_BIGPEELSIZE_LABEL" description="MOD_PAGEPEEL_BIGPEELSIZE_DESC" />
+				<field name="peelspeed" type="list" default="4" label="MOD_PAGEPEEL_ANIMSPEED_LABEL" description="MOD_PAGEPEEL_ANIMSPEED_DESC">
+					<option value="1"> 1 </option>
+					<option value="2"> 2 </option>
+					<option value="3"> 3 </option>
+					<option value="4"> 4 </option>
+				</field>		
+				<field name="adsystem" type="list" default="1" label="MOD_PAGEPEEL_ADSYSTEM_LABEL" description="MOD_PAGEPEEL_ADSYSTEM_DESC">
+					<option value="1">MOD_PAGEPEEL_ADSYSTEM_STATIC_OPT</option>
+					<option value="2">MOD_PAGEPEEL_ADSYSTEM_JOOMLA_OPT</option>			
+				</field>
+				<field name="cid" type="bannerclient" label="MOD_PAGEPEEL_BANNERCLIENT_LABEL" description="MOD_PAGEPEEL_BANNERCLIENT_DESC" />
+				<field name="catid" type="category" extension="com_banners" label="MOD_PAGEPEEL_BANNERCLIENT_CATEGORY_LABEL" multiple="true" size="5" default="" description="MOD_PAGEPEEL_BANNERCLIENT_CATEGORY_DESC" />
+				
+				
+				
+				<field name="peelmirror" type="radio" default="1" label="MOD_PAGEPEEL_MIRROROPT_LABEL" description="MOD_PAGEPEEL_MIRROROPT_DESC">
+					<option value="1">OPTION_ENABLE</option>
+					<option value="0">OPTION_DISABLE</option>
+				</field>
+				<field name="peelnomirrorclr" type="text" default="FFFFFF" label="MOD_PAGEPEEL_CORNERCOLOR_LABEL" description="MOD_PAGEPEEL_CORNERCOLOR_DESC" />
+				<field name="peellinktarget" type="list" default="self" label="MOD_PAGEPEEL_LINKOPENTARGET_LABEL" description="MOD_PAGEPEEL_LINKOPENTARGET_DESC">
+					<option value="self">MOD_PAGEPEEL_LINKTARGETSELF_OPT</option>
+					<option value="new">MOD_PAGEPEEL_LINKTARGETNEW_OPT</option>
+				</field>
+
+				<field name="alterlink" type="text" default="http://www.templateplazza.com" label="MOD_PAGEPEEL_ALTLINK_LABEL" description="" />
+				
+					
+			</fieldset>
+			<fieldset
+				name="advanced">
+				
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>   

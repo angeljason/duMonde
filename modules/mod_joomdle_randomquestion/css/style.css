@@ -1,0 +1,14 @@
+
+.joomdle_question_check {
+    float: left;
+    margin-left: 10px;
+    width: 5px;
+}
+
+.joomdle_question_answer {
+    padding-left: 30px;
+}
+
+.joomdle_question_results {
+    padding-left: 30px;
+}

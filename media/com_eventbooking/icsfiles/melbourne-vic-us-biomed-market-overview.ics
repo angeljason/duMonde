@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5722cb75e0023
+DTSTART:20160524T150000Z
+DTEND:20160524T163000Z
+DTSTAMP:20160524T150000Z
+ORGANIZER;CN=The duMonde Group Pty Ltd. :mailto:info@dumonde.com.au
+CREATED:20160429T024821Z
+DESCRIPTION:  duMonde’s "Trade Mission Ready" is a highly practical seminar designed to assist industry participants get the most out of international Trade Missions. Specifically\, it does this by helping attendees:   At the end of the course\, you should be able to:   		 		Better understand the market environment for doing business in the US including the key trends and potential opportunities with focus on the BIOMED market\;      		 		Identify realistic outcomes for the Mission\; and	   		 		Acquire proven and practical techniques on how to develop compelling customer value-propositions and trade mission pitches ready for delivery to the prospective clients they will encounter during the Trade Mission.	  
+LAST-MODIFIED:20160524T150000Z
+LOCATION:Avoca Room\, International Chamber House\, Level 5\, 121 Exhibition St.\, Melbourne\, VIC 3000\, Australia
+SUMMARY:Melbourne\, VIC - US BioMed Market Overview
+SEQUENCE:0
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

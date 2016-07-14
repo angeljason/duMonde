@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="2 Columns inline">
+		<message>
+			Display form to allow users enter data to process payment
+		</message>
+	</layout>
+	<state>
+		<name>2 Columns inline</name>
+		<description>Display Form Which Allows users to make onetime donation to the site</description>		
+		<fields name="request">			
+			<fieldset name="request"
+				addfieldpath="/administrator/components/com_pmform/elements">
+				<field name="form_id" type="form" size="3" default="0" label="Choose form" description="Choose the form which users will make payment"></field>
+			</fieldset>	
+		</fields>		
+	</state>
+</metadata>

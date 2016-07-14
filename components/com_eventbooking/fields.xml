@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="field_client" type="text" label="Client" size="100" description="" value=""></field>
+			<field name="field_clientinfo" type="text" label="Client Info" size="100" description="" value=""></field>
+			<field name="field_poc" type="text" label="POC" size="100" description="" value=""></field>
+			<field name="field_trainer" type="text" label="Trainer" size="50" description="" value=""></field>
+			<field name="field_flyer" type="list" default="" label="Flyer" description="">
+			  <option value="">Please Select</option>	
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</field>
+			<field name="field_registration" type="list" default="" label="Registration" description="">
+			  <option value="">Please Select</option>	
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</field>
+			<field name="field_workbook" type="list" default="" label="Workbook" description="">
+			  <option value="">Please Select</option>
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</field>
+			<field name="field_customisation" type="list" default="" label="Customisation" description="">
+			  <option value="">Please Select</option>
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</field>			
+			<field name="field_deck" type="list" default="" label="Deck" description="">
+			  <option value="">Please Select</option>
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</field>			
+			<field name="field_feedback" type="list" default="" label="Feedback Forms" description="">
+			  <option value="">Please Select</option>
+			  <option value="0">No</option>
+			  <option value="1">Yes</option>
+			</field>
+			<field name="field_status" type="list" default="" label="Status" description="">
+			  <option value="">Please Select</option>	
+			  <option value="Queued">Queued</option>
+			  <option value="On-hold">On-hold</option>
+			  <option value="Ongoing Preparation">Ongoing Preparation</option>
+			</field>
+			<field name="field_remarks" type="text" label="Remarks" size="100" description="" value=""></field>
+			<field name="field_customisation_requirements" type="text" label="Customisation Requirements" size="220" description="" value=""></field>
+			<field name="field_create_deck" type="text" label="Create Deck" size="220" description="" value=""></field>
+			<field name="field_review_approval_of_deck" type="text" label="Review and Approval of Deck" size="220" description="" value=""></field>
+			<field name="field_create_workbook" type="text" label="Create Workbook" size="220" description="" value=""></field>
+			<field name="field_review_approval_workbook" type="text" label="Review and Approval of Workbook" size="220" description="" value=""></field>
+			<field name="field_send_printer" type="text" label="Send to Printer" size="220" description="" value=""></field>
+			<field name="field_mode_delivery" type="list" default="" label="Mode of Delivery" description="">
+			  <option value="">Please Select</option>	
+			  <option value="Pick-up">Pick-up</option>
+			  <option value="Courrier Delivery">Courrier Delivery</option>
+			</field>
+			<field name="field_deliverydate" type="calendar" label="Pick-up/Delivery Date" description="" format="%d-%m-%Y" />
+			<field name="field_delivery_status" type="list" default="" label="Delivery Status" description="">
+			  <option value="">Please Select</option>
+			  <option value="Not yet started">Not yet started</option>
+			  <option value="For Pick-up">For Pick-up</option>
+			  <option value="Out for Delivery">Out for Delivery</option>
+			  <option value="Received">Received</option>
+			  <option value="Received Not Accepted">Received Not Accepted</option>
+			  <option value="Accepted">Accepted</option>
+			</field>
+			<field name="field_feedbackformstatus" type="list" default="" label="Feedback form Status" description="">
+			  <option value="">Please Select</option>
+			  <option value="Printing">Printing</option>
+			  <option value="Out for Delivery">Out for Delivery</option>
+			  <option value="Received">Received</option>
+			  <option value="Received Not Accepted">Received Not Accepted</option>
+			  <option value="Accepted">Accepted</option>
+			</field>		
+			<field name="field_trainerspackstatus" type="text" label="Trainer's Pack Status" size="220" description="" value=""></field>
+		</fieldset>			
+	</fields>	
+</config>

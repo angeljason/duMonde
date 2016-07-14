@@ -1,0 +1,4 @@
+[27-Oct-2015 10:11:16 America/Detroit] PHP Fatal error:  Class 'JRoute' not found in /home/nickmond/public_html/templates/yoo_katana/warp/systems/joomla/config/layouts/fields/menus.php on line 1
+[27-Oct-2015 10:11:16 America/Detroit] PHP Fatal error:  Call to a member function path() on a non-object in /home/nickmond/public_html/templates/yoo_katana/warp/systems/joomla/config/layouts/fields/layouts.php on line 10
+[27-Oct-2015 10:11:16 America/Detroit] PHP Fatal error:  Call to a member function checkCommon() on a non-object in /home/nickmond/public_html/templates/yoo_katana/warp/systems/joomla/config/layouts/fields/check.php on line 10
+[27-Oct-2015 10:11:16 America/Detroit] PHP Fatal error:  Call to a member function create() on a non-object in /home/nickmond/public_html/templates/yoo_katana/warp/systems/joomla/config/layouts/fields/widgets.php on line 9

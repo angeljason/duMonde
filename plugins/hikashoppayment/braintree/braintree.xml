@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="hikashoppayment">
+	<name>Hikashop BrainTree Payment Plugin</name>
+	<creationDate>August 2014</creationDate>
+	<version>0.9.6</version>
+	<author>3by400, Inc</author>
+	<authorEmail>developer@3by400.com</authorEmail>
+	<authorUrl>http://www.3by400.com</authorUrl>
+	<copyright>Copyright (C) 2014 3by400, Inc - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>This plugin enables you to setup your BrainTree payment system for HikaShop.</description>
+	<languages>
+		<language tag="en-GB">en-GB.plg_hikashoppayment_braintree.ini</language>
+	</languages>
+	<files>
+		<filename plugin="braintree">braintree.php</filename>
+		<filename>braintree_pay.php</filename>
+		<filename>braintree_end.php</filename>
+		<filename>braintree_transaction.php</filename>
+		<filename>helper.php</filename>
+		<folder>braintree-php</folder>
+	</files>
+	<params addpath="/components/com_hikashop/params">
+		<param name="pluginoptions" type="pluginoptions" default="plugin" label="hikashop" description="HikaShop options" />
+	</params>
+	<config>
+		<fields name="params" addfieldpath="/components/com_hikashop/fields">
+			<fieldset name="basic">
+				<field id="pluginoptions" name="pluginoptions" type="pluginoptions"
+					label="hikashop"
+          description="HikaShop options"
+        />
+      </fieldset>
+		</fields>
+	</config>
+</extension>

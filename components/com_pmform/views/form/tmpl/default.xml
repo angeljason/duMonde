@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Form Default Layout">
+		<message>
+			Display form to allow users enter data to process payment
+		</message>
+	</layout>
+	<state>
+		<name>Default Form Layout</name>
+		<description>Display form to allow users enter data to process payment</description>		
+		<fields name="request" addpath="/administrator/components/com_pmform/elements">			
+			<fieldset name="request"
+				addfieldpath="/administrator/components/com_pmform/elements">
+				<field name="form_id" type="form" size="3" default="0" label="Choose form" description="Choose the form which users will make payment"></field>
+			</fieldset>	
+		</fields>	
+	</state>
+</metadata>

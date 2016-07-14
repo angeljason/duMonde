@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.0" type="plugin" group="payment">
+	<name>os_moneybooker</name>
+	<title>Moneybooker</title>	
+	<author>Tuan Pham Ngoc</author>
+	<creationDate>09-03-2010</creationDate>
+	<copyright>Copyright 2007-2010 Ossolution Team</copyright>
+	<license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2</license>
+	<authorEmail>contact@joomdonation.com</authorEmail>
+	<authorUrl>www.joomdonation.com</authorUrl>
+	<version>1.0</version>
+	<description>Moneybooker Payment Plugin For Payment Form Extension</description>
+	<params addPath="/administrator/components/com_pmform/elements">		
+		<param name="mb_merchant_email" type="text" size="60" label="Merchant Email" description="Enter your Moneybooker Merchant Email" default=""></param>	
+		<param name="mb_merchant_id" type="text" label="Merchant ID" description="Enter your moneybooker merchant ID"></param>	
+		<param name="mb_secret_word" type="text" label="Secret word" description=""></param>			
+		<param name="mb_currency" type="list" label="Currency" description="">
+			<option value="EUR">Euro</option>			
+			<option value="USD">U.S. Dollar</option>			
+			<option value="GBP">British Pound</option>			
+			<option value="HKD">Hong Kong Dollar</option>			
+			<option value="SGD">Singapore Dollar</option>			
+			<option value="JPY">Japanese Yen</option>			
+			<option value="AUD">Australian Dollar</option>			
+			<option value="CHF">Swiss Franc</option>			
+			<option value="DKK">Danish Krone</option>			
+			<option value="SEK">Swedish Krona</option>			
+			<option value="NOK">Norwegian Krone</option>			
+			<option value="HUF">Hungarian Forint</option>		
+			<option value="CZK">Czech Koruna</option>		
+			<option value="ILS">Israeli Shekel</option>		
+			<option value="BRL">Brazilian Real</option>		
+			<option value="MYR">Malaysian Ringgit</option>		
+			<option value="MXN">Mexican Peso</option>		
+			<option value="PHP">Philippine Peso</option>		
+			<option value="TWD">Taiwan New Dollar</option>		
+			<option value="THB">Thai Baht</option>					
+		</param>			
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_pmform/elements">	
+				<field name="mb_merchant_email" type="text" size="60" label="Merchant Email" description="Enter your Moneybooker Merchant Email" default=""></field>	
+				<field name="mb_merchant_id" type="text" label="Merchant ID" description="Enter your moneybooker merchant ID"></field>	
+				<field name="mb_secret_word" type="text" label="Secret word" description=""></field>			
+				<field name="mb_currency" type="list" label="Currency" description="">
+					<option value="EUR">Euro</option>			
+					<option value="USD">U.S. Dollar</option>			
+					<option value="GBP">British Pound</option>			
+					<option value="HKD">Hong Kong Dollar</option>			
+					<option value="SGD">Singapore Dollar</option>			
+					<option value="JPY">Japanese Yen</option>			
+					<option value="AUD">Australian Dollar</option>			
+					<option value="CHF">Swiss Franc</option>			
+					<option value="DKK">Danish Krone</option>			
+					<option value="SEK">Swedish Krona</option>			
+					<option value="NOK">Norwegian Krone</option>			
+					<option value="HUF">Hungarian Forint</option>		
+					<option value="CZK">Czech Koruna</option>		
+					<option value="ILS">Israeli Shekel</option>		
+					<option value="BRL">Brazilian Real</option>		
+					<option value="MYR">Malaysian Ringgit</option>		
+					<option value="MXN">Mexican Peso</option>		
+					<option value="PHP">Philippine Peso</option>		
+					<option value="TWD">Taiwan New Dollar</option>		
+					<option value="THB">Thai Baht</option>					
+				</field>			
+			</fieldset>	
+		</fields>
+	</config>
+	<files>
+		<filename>os_moneybooker.php</filename>				
+	</files>
+	<languages>
+		<filename>en-GB.os_moneybooker.ini</filename>		
+	</languages>
+	<installsql />
+	<installfile />
+</install>

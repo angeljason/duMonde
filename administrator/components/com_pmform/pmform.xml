@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+  <name>PM Form</name>
+  <creationDate>April 2010</creationDate>
+  <author>Tuan Pham Ngoc</author>
+  <authorEmail>services@joomdonation.com</authorEmail>
+  <authorUrl>http://www.joomdonation.com</authorUrl>
+  <copyright>Copyright (C) 2010 - 2014 Ossolution Team</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>4.2</version>
+  <description>Payment Form is a Joomla 2.5 and Joomla 3.x extension which allows you to get payment from your site users via Paypal, Authorize.net, Eway, Offline payment gateways</description> 
+  <scriptfile>install.pmform.php</scriptfile>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/install.pmform.sql</file>
+    </sql>
+  </install>  
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/uninstall.pmform.sql</file>
+    </sql>
+  </uninstall>
+  <media destination="com_pmform" folder="site/media">	
+	<filename>.htaccess</filename>		
+	<filename>index.html</filename>
+	<folder>invoices</folder>
+  </media>
+  <languages>
+	<language tag="en-GB">site/languages/en-GB.com_pmform.ini</language>
+  </languages>
+  <files folder="site">
+	<folder>assets</folder>
+	<filename>index.html</filename>
+	<filename>pmform.php</filename>	
+	<folder>controller</folder>		
+	<folder>model</folder>	
+	<folder>view</folder>		
+	<folder>views</folder>	
+	<folder>helper</folder>	
+	<folder>emailtemplates</folder>
+	<folder>payments</folder>
+	<folder>tcpdf</folder>
+  </files>
+  <administration>
+    <menu>PF_PAYMENT_FORM</menu>
+    <submenu>
+      <menu link="option=com_pmform&amp;view=configuration">PF_CONFIGURATION</menu>
+      <menu link="option=com_pmform&amp;view=forms">PF_FORMS</menu>
+      <menu link="option=com_pmform&amp;view=fields">PF_FIELDS</menu>
+      <menu link="option=com_pmform&amp;view=payments">PF_PAYMENTS</menu>	  
+      <menu link="option=com_pmform&amp;view=coupons">PF_COUPONS</menu>	  
+      <menu link="option=com_pmform&amp;view=plugins">PF_PAYMENT_PLUGINS</menu>	  
+	  <menu link="option=com_pmform&amp;view=massmail">PF_MASS_MAIL</menu>	  
+      <menu link="option=com_pmform&amp;view=language">PF_TRANSLATION</menu>    
+	  <menu link="option=com_pmform&amp;task=payment.export">PF_EXPORT_PAYMENTS</menu>
+    </submenu>    
+    <files folder="admin">
+		<filename>index.html</filename>
+		<filename>htaccess.txt</filename>
+		<filename>access.xml</filename>
+		<filename>config.xml</filename>
+		<filename>pmform.php</filename>
+        <filename>config.php</filename>
+		<filename>loader.php</filename>		
+		<folder>assets</folder>
+		<folder>controller</folder>
+        <folder>elements</folder>
+        <folder>libraries</folder>
+		<folder>model</folder>
+        <folder>sql</folder>
+        <folder>table</folder>
+		<folder>view</folder>
+    </files>
+    <languages folder="admin">        
+		<language tag="en-GB">languages/en-GB/en-GB.com_pmform.sys.ini</language>      
+		<language tag="en-GB">languages/en-GB/en-GB.com_pmform.ini</language>
+    </languages>    
+  </administration>  
+</extension>

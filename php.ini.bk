@@ -1,0 +1,16 @@
+memory_limit = 512M;
+extension=pdo.so; 
+extension=pdo_sqlite.so;
+extension=sqlite.so; 
+extension=pdo_mysql.so;
+date.timezone = "Australia/Adelaide";  
+safe_mode = Off;
+upload_max_filesize = 512M;
+post_max_size = 128M;
+
+max_input_vars = 10000;
+max_input_nesting_level = 10000;
+suhosin.request.max_vars = 10000;
+suhosin.post.max_vars = 10000;
+
+extension=php_xmlrpc.dll;extension=zip.so;extension=intl.so;
